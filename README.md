@@ -23,11 +23,11 @@ Unique ID for Police section: 3456
 - Custom Scroll bar
 - Scroll to Top button
 
-## To do
-- Wish list
-- User Login/Sign Up
-- Adding more filter
-- Adding user-generated reviews
+## Methodology
+- For Image Recognition we are using AI ML by TensorFlow.
+- For frontend we have used React Js (only for firearm Detection) and jQuery for frontend.
+- For developing backend we have used JavaScript.
+- For styling we have used CSS and Bootstrap.
 
 ## Prerequisites
 **Only for Firearm Detection**
