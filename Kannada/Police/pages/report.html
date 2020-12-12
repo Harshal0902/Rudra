@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/report.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <title>ವರದಿ | ರುದ್ರ</title>
+</head>
+
+<body>
+        <nav>
+                <div class="logo"><a href="home.html" style="text-decoration: none; color: white;">
+                        ರುದ್ರ</a></div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                </label>
+                <ul style="font-family: 'Source Serif Pro', serif;">
+                        <li><a href="home.html" class=" text-decoration: none"><img
+                                                src="https://img.icons8.com/color/30/000000/brief.png" />
+                                                ಸೂಚನೆಗಳು</a></li>
+                        <li><a href="./identify.html"><img
+                                                src="https://img.icons8.com/office/30/000000/find-user-male--v1.png" />
+                                                ಗುರುತಿಸಲು
+                                                ಕಳ್ಳತನ</a></li>
+                        <li><a class="active" href="./report.html"><img
+                                                src="https://img.icons8.com/plasticine/30/000000/business-report.png" />
+                                                ವರದಿ</a></li>
+                        <li><a href="./notes.html"><img src="https://img.icons8.com/dusk/30/000000/note.png" />
+                                ಟಿಪ್ಪಣಿಗಳು</a></li>
+                        <li><a href="./chatbot.html"><img
+                                                src="https://img.icons8.com/ultraviolet/30/000000/chatbot.png" />
+                                                ಚಾಟ್‌ಬಾಟ್</a></li>
+                        <li><a href="../index.html"><img
+                                                src="https://img.icons8.com/dusk/30/000000/logout-rounded-left.png" />
+                                        ಲಾಗ್ ಔಟ್</a></li>
+                        <div id="dark-mode-toggle" title="Dark mode toggle"><img
+                                        src="https://img.icons8.com/color/38/000000/moon-satellite.png" /></div>
+                </ul>
+        </nav>
+
+        <!-- button for the top -->
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
+        <!-- Report -->
+        <header>
+                <h1>ವರದಿ</h1>
+        </header>
+
+        <form>
+                <input type="text" class="todo-input" maxlength="40" placeholder="ಶಂಕಿತ ವಿವರವನ್ನು ನಮೂದಿಸಿ" />
+                <button class="todo-button" type="submit">
+                        <i class="fas fa-plus-square"></i>
+                </button>
+                <div class="select">
+                        <select name="todos" class="filter-todo">
+                                <option value="all" style="border-style: solid;">ಎಲ್ಲಾ
+                                </option>
+                                <option value="completed">ಬಂಧಿಸಲಾಗಿದೆ</option>
+                                <option value="uncompleted">ವಾಂಟೆಡ್</option>
+                        </select>
+                </div>
+        </form>
+
+        <div class="todo-container">
+                <ul class="todo-list"></ul>
+        </div>
+
+        <script type="text/javascript" src="../js/report.js"></script>
+</body>
+
+</html>
