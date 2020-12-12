@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+body {
+  margin: 40px 0;
+  font-family: "Source Serif Pro", serif;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  font-family: "Raleway";
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Typewriter Effect */
+.container1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Serif Pro", serif;
+  align-items: center;
+}
+.container1 p {
+  font-size: 20px;
+  padding: 0.5rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container1 p span.cursor {
+  display: inline-block;
+  background-color: #000;
+  margin-left: 0.1rem;
+  width: 8px;
+  animation: blink 1s infinite;
+}
+.container1 p span.cursor.typing {
+  animation: none;
+}
+.container1 p span.typed-text {
+  color: #000;
+  font-weight: bolder;
+}
+
+.text span {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.animated-text span {
+  display: none;
+  line-height: 1;
+}
+.animated-text span.active {
+  display: inline-block;
+}
+.animated-text:after {
+  content: ".";
+  display: inline-block;
+  width: 10px;
+  text-indent: 0;
+  overflow: hidden;
+  background: var(--col-icon);
+  animation: blink 0.3s infinite alternate;
+}
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 + p,
+p + p {
+  margin-top: 10px;
+}
+
+.container {
+  align-items: center;
+  font-family: "Source Serif Pro", serif;
+  padding-bottom: 95px;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.card-wrap {
+  margin: 10px;
+  -webkit-transform: perspective(800px);
+  transform: perspective(800px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.card-wrap:hover .card-info {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.card-wrap:hover .card-info p {
+  opacity: 1;
+}
+.card-wrap:hover .card-info,
+.card-wrap:hover .card-info p {
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.card-wrap:hover .card-info:after {
+  -webkit-transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.card-wrap:hover .card-bg {
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 0.8;
+}
+.card-wrap:hover .card {
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px,
+    rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset white 0 0 0 6px;
+}
+
+.card {
+  position: relative;
+  -webkit-box-flex: 0;
+  margin-left: 40px;
+  flex: 0 0 240px;
+  width: 300px;
+  height: 500px;
+  background-color: var(--primary-bg);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+  -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  pointer-events: none;
+}
+
+.card-info {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(40%);
+  transform: translateY(40%);
+  -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info p {
+  text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+  opacity: 0;
+  -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.card-info * {
+  position: relative;
+  z-index: 1;
+}
+.card-info:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: overlay;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.card-info h1 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+
+@media (max-width: 920px) {
+  .container {
+    margin-left: -35px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+::-webkit-scrollbar-thumb {
+  background: #f30f2d;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #03f718;
+}
+

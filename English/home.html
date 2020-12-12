@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RUDRA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./home.css">
+
+</head>
+<body>
+    <h1 class="title">RUDRA</h1>
+
+    <!-- Typewriter Effect -->
+    <div class="container1">
+        <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+
+    <!-- Police/Public Section(Parallex Dpth Card) -->
+    <div id="app" class="container">
+        <card data-image="./Assets/public.jpg">
+            <h1 slot="header" style="color: #00cc00;">PUBLIC</h1>
+            <p slot="content" style="color: #00cc00;">Sign in with Public Account
+                <a href="./Public/index.html"><img
+                        src="https://img.icons8.com/plasticine/60/4a90e2/domain.png" /></a></p>
+        </card>
+        <card data-image="./Assets/police.jpg">
+            <h1 slot="header" style="color: rgb(77, 130, 243);">POLICE</h1>
+            <p slot="content" style="color: rgb(77, 130, 243);">Sign in with Police Account
+                <a href="./Police/index.html"><img
+                        src="https://img.icons8.com/plasticine/60/4a90e2/domain.png" /></a></p>
+        </card>
+    </div>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+    <script src="./home.js"></script>
+
+</body>
+
+</html>
