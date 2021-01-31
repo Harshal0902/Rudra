@@ -1,5 +1,5 @@
-# DSCWOW_Rudra
-RUDRA is a responsive web application for Police and Public Assistance. Refer RUDRA.pptx for more information.
+#Rudra
+RUDRA is a responsive web application for Police and Public Assistance.
 
 ## Demo Link
 https://rudraweb.netlify.app/
@@ -10,11 +10,9 @@ Unique ID for Police section: 3456
 
 Use seperate account for both section.
 
-## YouTube Video Link
+<!-- ## YouTube Video Link
 https://youtu.be/w0ASgzbu4-E
-
-
-(Demo) https://youtu.be/4L7YrW01C4c
+(Demo) https://youtu.be/4L7YrW01C4c -->
 
 ## Screenshots
 ![First](https://user-images.githubusercontent.com/64153988/102002619-3a3b1680-3d24-11eb-8987-2d14c9d65d78.png)
