@@ -49,6 +49,8 @@ https://youtu.be/w0ASgzbu4-E
 ## Contributing
 Am I missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. To start contributing, follow the  guidelines [here](./CONTRIBUTING.md)
 
+For any doubts join the community by [here](https://discord.gg/nVPTq6gp)
+
 ## Prerequisites
 **Only for Firearm Detection**
 
