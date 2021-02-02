@@ -1,4 +1,4 @@
-#Rudra
+# Rudra
 RUDRA is a responsive web application for Police and Public Assistance.
 
 ## Demo Link
@@ -45,6 +45,9 @@ https://youtu.be/w0ASgzbu4-E
 - For frontend we have used React Js (only for firearm Detection) and jQuery for frontend.
 - For developing backend we have used JavaScript.
 - For styling we have used CSS and Bootstrap.
+
+## Contributing
+Am I missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. To start contributing, follow the  guidelines [here](./CONTRIBUTING.md)
 
 ## Prerequisites
 **Only for Firearm Detection**
