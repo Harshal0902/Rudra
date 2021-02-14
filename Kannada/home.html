@@ -6,8 +6,11 @@
     <meta charset="UTF-8">
     <title>ರುದ್ರ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <script src="https://use.fontawesome.com/c287a31143.js"></script>
     <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./footer.css">
 
 </head>
 <body>
@@ -19,7 +22,7 @@
     </div>
 
     <!-- Police/Public Section(Parallex Dpth Card) -->
-    <div id="app" class="container">
+    <div id="app" class="container-2">
         <card data-image="./Assets/public.jpg">
             <h1 slot="header" style="color: #00cc00;">ಸಾರ್ವಜನಿಕ</h1>
             <p slot="content" style="color: #00cc00;">ಸಾರ್ವಜನಿಕ ಖಾತೆಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ<br>
@@ -38,5 +41,54 @@
     <script src="./home.js"></script>
 
 </body>
-
+<!-- footer -->
+<footer class="text-white text-center text-lg-start">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0 footer-list">
+            <li><h5 class="text-uppercase">
+              ತ್ವರಿತ ಲಿಂಕ್‌ಗಳು</h5></li>
+            <li><a href="#!" class="text-white">ಮನೆ</a></li>
+            <li><a href="#!" class="text-white">
+              ನಮ್ಮ ಬಗ್ಗೆ</a> </li>
+            <li>
+              <h6> ಭಾಷೆ</h6>
+              <ul class="list-styled mb-0">
+                <li><a href="./English/home.html" class="text-white"> ಆಂಗ್ಲ</a></li>
+                <li><a href="./Kannada/home.html" class="text-white"> ಕನ್ನಡ</a></li>
+                <li><a href="#" class="text-white">ಇತರರು</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0 footer-list">
+            <li><h5 class="text-uppercase"> ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</h5></li>
+            <li>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#" class="text-white">&nbsp rudra@xyz.com</a>
+            </li>
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i><a href="#" class="text-white">&nbsp 9004950430</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0">   
+          <div class="container footer-list">
+            <h5 class="text-uppercase connect">ಸಂಪರ್ಕಿಸಿ</h5>
+            <div class="row">
+                <div class="col-2"></div>
+              <div class="col-2"><a href=""><img src="assets/facebook.png" alt=""></a></div>
+              <div class="col-2"><a href=""><img src="assets/twitter.png" alt=""></a></div>
+              <div class="col-2"><a href=""><img src="assets/instagram.png" alt=""></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="text-center p-3 copyright" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="#">Rudra@xyz.com</a>
+    </div>
+  </footer>
 </html>
