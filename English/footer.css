@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400&display=swap');
+
+footer{
+    font-family: "Source Serif Pro", serif;
+    padding-top: 30px;
+    background: rgb(6, 82, 92);
+    background-size: 100%;
+    clip-path: polygon(26% 0, 100% 4%, 100% 100%, 0 100%, 0 5%);
+    line-height: 2rem;
+}
+.footer-list>li, .connect{
+    width: 100%;
+    margin-left: 20%;
+    text-align: left;
+}
+.copyrights{
+    background: rgb(0, 27, 31);
+}

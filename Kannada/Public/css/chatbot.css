@@ -269,7 +269,7 @@ input[type="checkbox"] {
   align-items: center;
   position: fixed;
   left: 80px;
-  z-index: 99999;
+  z-index: -1;
 }
 .chatbot-area {
   float: right;
