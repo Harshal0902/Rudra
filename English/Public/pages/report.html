@@ -36,21 +36,26 @@
     <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
 
     <div class="wrapper">
-        <div class="title">
-          <h1>Report Us</h1>
+      <div class="title">
+        <h1>Report Us</h1>
+      </div>
+      <div class="contact-form">
+        <div class="input-fields">
+          <form
+  action="https://formspree.io/f/meqpwovb"
+  method="POST"
+>
+<label>
+          <input type="text" class="input" placeholder="Name" >
+          <input type="text" class="input" placeholder="Phone">
+          <input type="text" class="input" placeholder="Location">
         </div>
-        <div class="contact-form">
-          <div class="input-fields">
-            <input type="text" class="input" placeholder="Name">
-            <input type="text" class="input" placeholder="Phone">
-            <input type="text" class="input" placeholder="Location">
-          </div>
-          <div class="msg">
-            <textarea placeholder="Description of Suspect and Crime"></textarea>
-            <div class="btn">Report Theft</div>
-          </div>
+        <div class="msg">
+          <textarea placeholder="Description of Suspect and Crime" name="message"></textarea>
+          <button class="btn">Report Theft</button>
         </div>
       </div>
+    </div>
 
       <script type="text/javascript" src="../js/report.js"></script>
 </body>
