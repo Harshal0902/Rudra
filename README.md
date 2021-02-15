@@ -73,3 +73,8 @@ Similar steps for Kannada Section
 2. npm install
 3. npm run dev
 ```
+
+### This Project is a part of the following Open Source Program
+
+<img src ="https://github.com/Ayush7614/Rudra/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>
+
