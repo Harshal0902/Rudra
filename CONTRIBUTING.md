@@ -80,7 +80,7 @@ git push -u origin <your_branch_name>
 **13.** Then add an appropriate title and description to your pull request that explains your changes and efforts done.
 
 
-**14.** Click on `Create Pull Request` on devlopment branch.
+**14.** Click on `Create Pull Request` on `main` branch.
 
 <img src="https://user-images.githubusercontent.com/64153988/106642571-88df9100-65ae-11eb-86a0-de4b3284f14e.png" width=600>
 
