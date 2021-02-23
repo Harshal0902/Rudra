@@ -85,4 +85,19 @@
    <td>50</td>
 </tr>
 
+<tr>
+   <td>Arbaz Alam</td>
+   <td> <a href='https://github.com/arbazalam01'>arbazalam01</a></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/33'>#33</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
+
 </table>
