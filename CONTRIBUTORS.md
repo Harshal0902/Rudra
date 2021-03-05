@@ -101,6 +101,21 @@
 </tr>
 
 <tr>
+   <td>Muthu Annamalai Venkatachalam</td>
+   <td> <a href='https://github.com/muthuannamalai12'>muthuannamalai12</a></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/40'>#40</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
+
+<tr>
    <td>Yashasvi</td>
    <td> <a href='https://github.com/kmryashasvi'>kmryashasvi</a></td>
    <td>
