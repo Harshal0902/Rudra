@@ -100,4 +100,19 @@
    <td>50</td>
 </tr>
 
+<tr>
+   <td>Yashasvi</td>
+   <td> <a href='https://github.com/kmryashasvi'>kmryashasvi</a></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/39'>#39</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
+
 </table>
