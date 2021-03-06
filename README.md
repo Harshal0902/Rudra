@@ -78,13 +78,51 @@ Similar steps for Kannada Section
 
 [<img src ="https://github.com/Ayush7614/Rudra/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>](https://crosswoc.ieeedtu.in/)
 
-# Contributor Names:
 
-[Abhinav Karforma](https://github.com/Abhinav0909)
-[Radhika Jadhav](https://github.com/96RadhikaJadhav)
-[Milap Anwani](https://github.com/greenblade29)
-[Ayush kumar](https://github.com/Ayush7614)
-[Arbaz Alam](https://github.com/arbazalam01)
+## Project Maintainer 
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Harshal0902"><img alt="" src="https://avatars.githubusercontent.com/u/64153988?s=400&u=fe27fb802b9d4954152a6ed65a09fede8b49fd4c&v=4" width="130px;"><br><sub><b>
+ Harshal Raikar </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+  </tr>
+</tbody></table>
+
+## Project Contributors
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Harshal0902"><img alt="" src="https://avatars.githubusercontent.com/u/64153988?s=400&u=fe27fb802b9d4954152a6ed65a09fede8b49fd4c&v=4" width="130px;"><br><sub><b>
+ Harshal Raikar </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+ 
+ <td align="center"><a href="https://github.com/Abhinav0909"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+ Abhinav Karforma </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+ 
+ <td align="center"><a href="https://github.com/96RadhikaJadhav"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+ Radhika Jadhav </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+ 
+ <td align="center"><a href="https://github.com/greenblade29"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+ Milap Anwani </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+ 
+ <td align="center"><a href="https://github.com/Ayush7614"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+Ayush kumar</b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+ 
+ <td align="center"><a href="https://github.com/arbazalam01"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+Arbaz Alam</b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+
+<td align="center"><a href="https://github.com/kmryashasvi"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+Yashasvi</b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+
+
+<td align="center"><a href="https://github.com/kmryashasvi"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+Yashasvi</b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+
+
+<td align="center"><a href="https://github.com/kmryashasvi"><img alt="" src="https://avatars.githubusercontent.com/u/63122133?s=400&u=acae9e4d42078288a36310800dfbce3906bc3798&v=4" width="130px;"><br><sub><b>
+Yashasvi</b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+  </tr>
+</tbody></table>
+
 
 💜 **Thanks**
 
