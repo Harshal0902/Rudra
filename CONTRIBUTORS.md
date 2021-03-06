@@ -85,7 +85,7 @@
    <td></td>
    <td></td>
    <td></td>
-   <td>50</td>
+   <td>100</td>
 </tr>
 
 <tr>
