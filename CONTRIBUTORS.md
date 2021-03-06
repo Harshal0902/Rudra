@@ -71,6 +71,24 @@
 </tr>
 
 <tr>
+   <td>Muthu Annamalai Venkatachalam</td>
+   <td> <a href='https://github.com/muthuannamalai12'>muthuannamalai12</a></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/40'>#40</a></li>
+      </ul>
+        <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/41'>#41</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td>50</td>
+</tr>
+
+<tr>
    <td>Ayush kumar</td>
    <td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
    <td>
@@ -91,21 +109,6 @@
    <td>
       <ul>
          <li><a href='https://github.com/Harshal0902/Rudra/pull/33'>#33</a></li>
-      </ul>
-      
-   </td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>50</td>
-</tr>
-
-<tr>
-   <td>Muthu Annamalai Venkatachalam</td>
-   <td> <a href='https://github.com/muthuannamalai12'>muthuannamalai12</a></td>
-   <td>
-      <ul>
-         <li><a href='https://github.com/Harshal0902/Rudra/pull/40'>#40</a></li>
       </ul>
       
    </td>
