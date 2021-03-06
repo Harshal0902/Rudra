@@ -78,13 +78,20 @@ Similar steps for Kannada Section
 
 [<img src ="https://github.com/Ayush7614/Rudra/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>](https://crosswoc.ieeedtu.in/)
 
-# Contributor Names:
 
-[Abhinav Karforma](https://github.com/Abhinav0909)
-[Radhika Jadhav](https://github.com/96RadhikaJadhav)
-[Milap Anwani](https://github.com/greenblade29)
-[Ayush kumar](https://github.com/Ayush7614)
-[Arbaz Alam](https://github.com/arbazalam01)
+## Project Maintainer 
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Harshal0902"><img alt="" src="https://avatars.githubusercontent.com/u/64153988?s=400&u=fe27fb802b9d4954152a6ed65a09fede8b49fd4c&v=4" width="130px;"><br><sub><b>
+ Harshal Raikar </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+  </tr>
+</tbody></table>
+
+## Project Contributors
+
+![Contributors](https://contributors-img.web.app/image?repo=Harshal0902/Rudra)
+
 
 💜 **Thanks**
 
