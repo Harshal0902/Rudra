@@ -88,6 +88,25 @@
    <td>100</td>
 </tr>
 
+
+<tr>
+   <td>Yashasvi</td>
+   <td> <a href='https://github.com/kmryashasvi'>kmryashasvi</a></td>
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/39'>#39</a></li>
+      </ul>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/43'>#43</a></li>
+      </ul>
+      
+   </td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td>100</td>
+</tr>
+
 <tr>
    <td>Ayush kumar</td>
    <td> <a href='https://github.com/Ayush7614'>Ayush7614</a></td>
@@ -118,19 +137,5 @@
    <td>50</td>
 </tr>
 
-<tr>
-   <td>Yashasvi</td>
-   <td> <a href='https://github.com/kmryashasvi'>kmryashasvi</a></td>
-   <td>
-      <ul>
-         <li><a href='https://github.com/Harshal0902/Rudra/pull/39'>#39</a></li>
-      </ul>
-      
-   </td>
-   <td></td>
-   <td></td>
-   <td></td>
-   <td>50</td>
-</tr>
 
 </table>
