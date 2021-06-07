@@ -93,7 +93,5 @@ Similar steps for Kannada Section
 ![Contributors](https://contributors-img.web.app/image?repo=Harshal0902/Rudra)
 
 
-<img src="https://komarev.com/ghpvc/?username=Rudra&color=blue&label=+Hackers+inspired"/>
-
 💜 **Thanks**
 
