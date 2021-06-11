@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(to left top, #ee3646, #f20066, #eb008a, #d500b0, #ac30d6, #8162f1, #4d81fe, #0099ff, #00bcff, #00d9fe, #00f0c2, #00ff6f);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/* ========================================= Heading section ================================================= */
+.heading{
+    display: block;
+    margin-bottom: 7vh;
+}
+
+.heading h1{
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 4vh;
+    left: 5vw;
+}
+
+/* ============================================= Main About Box ================================================ */
+
+.main{
+    display: block;
+    padding-left: 24vw;
+    margin-bottom: 3vw;
+}
+
+.main .about-box{
+    
+    width: clamp(40vw, 70vw, 70vw);
+    height: 65vh;
+    background:rgba(225, 225, 225, 0.1);
+    padding: 1vw;
+    border: 0;
+    border-radius: 5px;
+    backdrop-filter: blur(100px);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.main .about-box .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+.main .about-box .buttons button{
+    padding: 4px 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+    background: rgba(225, 225, 225, 0.4); 
+    cursor: pointer;
+}
+
+
+/* ============================================ Info Box =============================================== */
+.main .about-box .info{
+    width: 100%;
+    font-size: 18px;
+    padding: 0 1vw;
+}
+
+/* ===================================== English Box ============================================== */
+.main .about-box .info #english{
+    width: 100%;
+    height: 58vh;
+    overflow: auto;
+    display: flex;
+}
+
+/* =========================================== Kannad Box ========================================== */
+.main .about-box .info #kannad{
+    width: 100%;
+    height: 58vh;
+    overflow: auto;
+    display: none;
+}
+
+/* ========================================== Others Box ========================================== */
+
+.main .about-box .info #other{
+    width: 100%;
+    height: 58vh;
+    overflow: auto;
+    display: none;
+}
+
+
+/* ========================================== Scrollbar Settings ======================================== */
+::-webkit-scrollbar{width: 5px;}
+::-webkit-scrollbar-track{background: rgba(0, 0, 0, 0.2);}
+::-webkit-scrollbar-thumb{background: rgba(225, 225, 225, 0.4)}
+
+/* ======================================== Footer ================================================== */
+footer{
+    width: 100%;
+}
