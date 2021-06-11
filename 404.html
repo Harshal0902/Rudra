@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oops!! The page you requested could not be found !</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <script src="https://use.fontawesome.com/c287a31143.js"></script>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel='icon' href='English/Assets/favicon.ico' type='image/x-icon'/ >
+</head>
+<body onload="loader()">
+
+  <div id="loading"></div>
+<div class="container">
+
+<center>
+    <img src="assets/404.png" class="img-fluid" width="500px" height="500px">
+    <h1 style="color: aliceblue;font-size: 30px">Oops!! The page you requested could not be found !</h1>
+    <br>
+    <a href="home.html" class="btn btn-primary">Go to Home Page</a></center>
+    <br>
+    </div>
+
+<script>
+  var preloader = document.getElementById('loading');
+  function loader(){
+    preloader.style.display='none';
+  }
+</script>
+</body>
+<!-- footer -->
+<footer class="text-white text-center text-lg-start">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+        <ul class="list-unstyled mb-0 footer-list">
+          <li><h5 class="text-uppercase">Quick Links</h5></li>
+          <li><a href="#!" class="text-white">Home</a></li>
+          <li><a href="./aboutus.html" class="text-white">About Us</a> </li>
+          <li>
+            <h6>Languages:</h2>
+            <ul class="list-styled mb-0">
+              <li><a href="./English/home.html" class="text-white">English</a></li>
+              <li><a href="./Kannada/home.html" class="text-white">Kannada</a></li>
+              <li><a href="#" class="text-white">Others</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+        <ul class="list-unstyled mb-0 footer-list">
+          <li><h5 class="text-uppercase">Contact Us</h5></li>
+          <li>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#" class="text-white">&nbsp rudra@xyz.com</a>
+          </li>
+          <li>
+            <i class="fa fa-phone" aria-hidden="true"></i><a href="#" class="text-white">&nbsp 9004950430</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4 mb-md-0">   
+        <div class="container footer-list">
+          <h5 class="text-uppercase connect">Connect</h5>
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2"><img src="assets/facebook.png" alt=""></div>
+            <div class="col-2"><img src="assets/twitter.png" alt=""></div>
+            <div class="col-2"><img src="assets/instagram.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-3 copyright" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-white" href="#">Rudra@xyz.com</a>
+  </div>
+</footer>
+</html>
