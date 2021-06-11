@@ -170,3 +170,8 @@ p:before {
   border-radius: 50%;
   content: "";
 }
+
+.clickable{
+  cursor: pointer;
+}
+
