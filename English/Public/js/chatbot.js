@@ -32,8 +32,22 @@ window
 
 //Chatbot
 let mic = document.getElementById("mic");
-let chatareamain = document.querySelector('.chatarea-main');
+let chatareamain = document.querySelector('.chat-main');
+let chatmain = document.querySelector('.chatarea-main');
 let chatareaouter = document.querySelector('.chatarea-outer');
+let chatbtn = document.querySelector('.chatbot-button');
+let chattoggle = document.querySelector('.chat-box-toggle');
+
+chatbtn.addEventListener('click', () => {
+    chatmain.style.display = "block";
+    chatbtn.style.display = "none";
+})
+
+chattoggle.addEventListener('click', () => {
+    chatbtn.style.display = "flex";
+    chatmain.style.display = "none";
+})
+
 
 let introd = ["Hello, I am Chatbot", "Hi, I am a Robo"];
 let help = ["How may i assist you?", "How can i help you?", "What i can do for you?"];
@@ -80,7 +94,7 @@ function chatbotvoice(message) {
         let finalresult = greetings[Math.floor(Math.random() * greetings.length)];
         speech.text = finalresult;
     }
-    if (message.includes('tell me something about you' )) {
+    if (message.includes('tell me something about you')) {
         let finalresult = hobbies[Math.floor(Math.random() * hobbies.length)];
         speech.text = finalresult;
     }
@@ -92,19 +106,19 @@ function chatbotvoice(message) {
         let finalresult = fundamental[Math.floor(Math.random() * fundamental.length)];
         speech.text = finalresult;
     }
-    if(message.includes('emergency')) {
+    if (message.includes('emergency')) {
         let finalresult = emergency[Math.floor(Math.random() * emergency.length)];
         speech.text = finalresult;
     }
-    if(message.includes('police')) {
+    if (message.includes('police')) {
         let finalresult = police[Math.floor(Math.random() * police.length)];
         speech.text = finalresult;
     }
-    if(message.includes('medical')) {
+    if (message.includes('medical')) {
         let finalresult = medical[Math.floor(Math.random() * medical.length)];
         speech.text = finalresult;
     }
-    if(message.includes('fire')) {
+    if (message.includes('fire')) {
         let finalresult = fire[Math.floor(Math.random() * fire.length)];
         speech.text = finalresult;
     }
@@ -118,20 +132,21 @@ function chatbotvoice(message) {
     }
     window.speechSynthesis.speak(speech);
     chatareamain.appendChild(showchatbotmsg(speech.text));
+    chatareaouter.scrollTop = chatareaouter.scrollHeight;
 }
 
-recognition.onresult = function (e) {
+recognition.onresult = function(e) {
     let resultIndex = e.resultIndex;
     let transcript = e.results[resultIndex][0].transcript;
     chatareamain.appendChild(showusermsg(transcript));
     chatbotvoice(transcript);
     console.log(transcript);
 }
-recognition.onend = function () {
-    mic.style.background = "#ff3b3b";
+recognition.onend = function() {
+    mic.style.background = "rgb(239 239 239)";
 }
-mic.addEventListener("click", function () {
-    mic.style.background = '#39c81f';
+mic.addEventListener("click", function() {
+    mic.style.background = '#bdb4b9';
     recognition.start();
     console.log("Activated");
 })

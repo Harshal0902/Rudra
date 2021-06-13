@@ -1,95 +1,95 @@
 // xxxxxxxxxx Working For Sign Up Form xxxxxxxxxx
 // xxxxxxxxxx Full Name Validation xxxxxxxxxx
-function checkUserFullName(){
+function checkUserFullName() {
     var userSurname = document.getElementById("userFullName").value;
     var flag = false;
-    if(userSurname === ""){
+    if (userSurname === "") {
         flag = true;
     }
-    if(flag){
+    if (flag) {
         document.getElementById("userFullNameError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userFullNameError").style.display = "none";
     }
 }
 // xxxxxxxxxx User Surname Validation xxxxxxxxxx
-function checkUserSurname(){
+function checkUserSurname() {
     var userSurname = document.getElementById("userSurname").value;
     var flag = false;
-    if(userSurname === ""){
+    if (userSurname === "") {
         flag = true;
     }
-    if(flag){
+    if (flag) {
         document.getElementById("userSurnameError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userSurnameError").style.display = "none";
     }
 }
 // xxxxxxxxxx Email Validation xxxxxxxxxx
-function checkUserEmail(){
+function checkUserEmail() {
     var userEmail = document.getElementById("userEmail");
     var userEmailFormate = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var flag;
-    if(userEmail.value.match(userEmailFormate)){
+    if (userEmail.value.match(userEmailFormate)) {
         flag = false;
-    }else{
+    } else {
         flag = true;
     }
-    if(flag){
+    if (flag) {
         document.getElementById("userEmailError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userEmailError").style.display = "none";
     }
 }
 // xxxxxxxxxx Password Validation xxxxxxxxxx
-function checkUserPassword(){
+function checkUserPassword() {
     var userPassword = document.getElementById("userPassword");
-    var userPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;      
+    var userPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
     var flag;
-    if(userPassword.value.match(userPasswordFormate)){
+    if (userPassword.value.match(userPasswordFormate)) {
         flag = false;
-    }else{
+    } else {
         flag = true;
-    }    
-    if(flag){
+    }
+    if (flag) {
         document.getElementById("userPasswordError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userPasswordError").style.display = "none";
     }
 }
 // xxxxxxxxxx Check user bio characters. It'll use later xxxxxxxxxx
-function checkUserBio(){
+function checkUserBio() {
     var userBio = document.getElementById("userBio").value;
     var flag = false;
-    if(flag){
+    if (flag) {
         document.getElementById("userBioError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userBioError").style.display = "none";
     }
 }
 // xxxxxxxxxx Submitting and Creating new user in firebase authentication xxxxxxxxxx
-function signUp(){
+function signUp() {
     var userFullName = document.getElementById("userFullName").value;
     var userSurname = document.getElementById("userSurname").value;
     var userEmail = document.getElementById("userEmail").value;
     var userPassword = document.getElementById("userPassword").value;
-    var userFullNameFormate = /^([A-Za-z.\s_-])/;    
+    var userFullNameFormate = /^([A-Za-z.\s_-])/;
     var userEmailFormate = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var userPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;      
+    var userPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
 
     var checkUserFullNameValid = userFullName.match(userFullNameFormate);
     var checkUserEmailValid = userEmail.match(userEmailFormate);
     var checkUserPasswordValid = userPassword.match(userPasswordFormate);
 
-    if(checkUserFullNameValid == null){
+    if (checkUserFullNameValid == null) {
         return checkUserFullName();
-    }else if(userSurname === ""){
+    } else if (userSurname === "") {
         return checkUserSurname();
-    }else if(checkUserEmailValid == null){
+    } else if (checkUserEmailValid == null) {
         return checkUserEmail();
-    }else if(checkUserPasswordValid == null){
+    } else if (checkUserPasswordValid == null) {
         return checkUserPassword();
-    }else{
+    } else {
         firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword).then((success) => {
             var user = firebase.auth().currentUser;
             var uid;
@@ -108,9 +108,8 @@ function signUp(){
                 userBio: "User biography",
             }
             firebaseRef.child(uid).set(userData);
-            swal('Your Account Created','Your account was created successfully, you can log in now.',
-            ).then((value) => {
-                setTimeout(function(){
+            swal('Your Account Created', 'Your account was created successfully, you can log in now.', ).then((value) => {
+                setTimeout(function() {
                     window.location.replace("../index.html");
                 }, 1000)
             });
@@ -120,66 +119,66 @@ function signUp(){
             var errorMessage = error.message;
             swal({
                 type: 'error',
-                title: 'Error',
-                text: "Error",
+                title: errorCode,
+                text: errorMessage,
             })
         });
     }
 }
 // xxxxxxxxxx Working For Sign In Form xxxxxxxxxx
 // xxxxxxxxxx Sign In Email Validation xxxxxxxxxx
-function checkUserSIEmail(){
+function checkUserSIEmail() {
     var userSIEmail = document.getElementById("userSIEmail");
     var userSIEmailFormate = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var flag;
-    if(userSIEmail.value.match(userSIEmailFormate)){
+    if (userSIEmail.value.match(userSIEmailFormate)) {
         flag = false;
-    }else{
+    } else {
         flag = true;
     }
-    if(flag){
+    if (flag) {
         document.getElementById("userSIEmailError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userSIEmailError").style.display = "none";
     }
 }
 // xxxxxxxxxx Sign In Password Validation xxxxxxxxxx
-function checkUserSIPassword(){
+function checkUserSIPassword() {
     var userSIPassword = document.getElementById("userSIPassword");
-    var userSIPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;      
+    var userSIPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
     var flag;
-    if(userSIPassword.value.match(userSIPasswordFormate)){
+    if (userSIPassword.value.match(userSIPasswordFormate)) {
         flag = false;
-    }else{
+    } else {
         flag = true;
-    }    
-    if(flag){
+    }
+    if (flag) {
         document.getElementById("userSIPasswordError").style.display = "block";
-    }else{
+    } else {
         document.getElementById("userSIPasswordError").style.display = "none";
     }
 }
 // xxxxxxxxxx Check email or password exsist in firebase authentication xxxxxxxxxx    
-function signIn(){
+function signIn() {
     var userSIEmail = document.getElementById("userSIEmail").value;
     var userSIPassword = document.getElementById("userSIPassword").value;
     var userSIEmailFormate = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var userSIPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;      
+    var userSIPasswordFormate = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}/;
 
     var checkUserEmailValid = userSIEmail.match(userSIEmailFormate);
     var checkUserPasswordValid = userSIPassword.match(userSIPasswordFormate);
 
-    if(checkUserEmailValid == null){
+    if (checkUserEmailValid == null) {
         return checkUserSIEmail();
-    }else if(checkUserPasswordValid == null){
+    } else if (checkUserPasswordValid == null) {
         return checkUserSIPassword();
-    }else{
+    } else {
         firebase.auth().signInWithEmailAndPassword(userSIEmail, userSIPassword).then((success) => {
             swal({
                 type: 'successfull',
-                title: 'Succesfully signed in', 
+                title: 'Succesfully signed in',
             }).then((value) => {
-                setTimeout(function(){
+                setTimeout(function() {
 
                     // Page after Log In/Sign Up
                     window.location.replace("./pages/home.html");
@@ -199,16 +198,16 @@ function signIn(){
 }
 // xxxxxxxxxx Working For Profile Page xxxxxxxxxx
 // xxxxxxxxxx Get data from server and show in the page xxxxxxxxxx
-firebase.auth().onAuthStateChanged((user)=>{
+firebase.auth().onAuthStateChanged((user) => {
     if (user) {
-    //   User is signed in.
+        //   User is signed in.
         let user = firebase.auth().currentUser;
         let uid
-        if(user != null){
+        if (user != null) {
             uid = user.uid;
         }
         let firebaseRefKey = firebase.database().ref().child(uid);
-        firebaseRefKey.on('value', (dataSnapShot)=>{
+        firebaseRefKey.on('value', (dataSnapShot) => {
             document.getElementById("userPfFullName").innerHTML = dataSnapShot.val().userFullName;
             document.getElementById("userPfSurname").innerHTML = dataSnapShot.val().userSurname;
             // userEmail = dataSnapShot.val().userEmail;
@@ -219,11 +218,11 @@ firebase.auth().onAuthStateChanged((user)=>{
             document.getElementById("userPfBio").innerHTML = dataSnapShot.val().userBio;
         })
     } else {
-    //   No user is signed in.
+        //   No user is signed in.
     }
 });
 // xxxxxxxxxx Show edit profile form with detail xxxxxxxxxx
-function showEditProfileForm(){
+function showEditProfileForm() {
     document.getElementById("profileSection").style.display = "none"
     document.getElementById("editProfileForm").style.display = "block"
     var userPfFullName = document.getElementById("userPfFullName").innerHTML;
@@ -232,36 +231,36 @@ function showEditProfileForm(){
     var userPfTw = document.getElementById("userPfTw").getAttribute("href");
     var userPfGp = document.getElementById("userPfGp").getAttribute("href");
     var userPfBio = document.getElementById("userPfBio").innerHTML;
-    document.getElementById("userFullName").value = userPfFullName; 
-    document.getElementById("userSurname").value = userPfSurname; 
-    document.getElementById("userFacebook").value = userPfFb; 
-    document.getElementById("userTwitter").value = userPfTw; 
-    document.getElementById("userGooglePlus").value = userPfGp; 
-    document.getElementById("userBio").value = userPfBio; 
+    document.getElementById("userFullName").value = userPfFullName;
+    document.getElementById("userSurname").value = userPfSurname;
+    document.getElementById("userFacebook").value = userPfFb;
+    document.getElementById("userTwitter").value = userPfTw;
+    document.getElementById("userGooglePlus").value = userPfGp;
+    document.getElementById("userBio").value = userPfBio;
 }
 // xxxxxxxxxx Hide edit profile form xxxxxxxxxx
-function hideEditProfileForm(){
+function hideEditProfileForm() {
     document.getElementById("profileSection").style.display = "block";
     document.getElementById("editProfileForm").style.display = "none";
 }
 // xxxxxxxxxx Save profile and update database xxxxxxxxxx
-function saveProfile(){
-    let userFullName = document.getElementById("userFullName").value 
-    let userSurname = document.getElementById("userSurname").value 
-    let userFacebook = document.getElementById("userFacebook").value 
-    let userTwitter = document.getElementById("userTwitter").value 
-    let userGooglePlus = document.getElementById("userGooglePlus").value 
+function saveProfile() {
+    let userFullName = document.getElementById("userFullName").value
+    let userSurname = document.getElementById("userSurname").value
+    let userFacebook = document.getElementById("userFacebook").value
+    let userTwitter = document.getElementById("userTwitter").value
+    let userGooglePlus = document.getElementById("userGooglePlus").value
     let userBio = document.getElementById("userBio").value
-    var userFullNameFormate = /^([A-Za-z.\s_-])/; 
+    var userFullNameFormate = /^([A-Za-z.\s_-])/;
     var checkUserFullNameValid = userFullName.match(userFullNameFormate);
-    if(checkUserFullNameValid == null){
+    if (checkUserFullNameValid == null) {
         return checkUserFullName();
-    }else if(userSurname === ""){
+    } else if (userSurname === "") {
         return checkUserSurname();
-    }else{
+    } else {
         let user = firebase.auth().currentUser;
         let uid;
-        if(user != null){
+        if (user != null) {
             uid = user.uid;
         }
         var firebaseRef = firebase.database().ref();
@@ -277,9 +276,9 @@ function saveProfile(){
         swal({
             type: 'successfull',
             title: 'Update successfull',
-            text: 'Profile updated.', 
+            text: 'Profile updated.',
         }).then((value) => {
-            setTimeout(function(){
+            setTimeout(function() {
                 document.getElementById("profileSection").style.display = "block";
 
                 document.getElementById("editProfileForm").style.display = "none";
@@ -288,14 +287,14 @@ function saveProfile(){
     }
 }
 // xxxxxxxxxx Working For Sign Out xxxxxxxxxx
-function signOut(){
+function signOut() {
     firebase.auth().signOut().then(function() {
         // Sign-out successful.
         swal({
             type: 'successfull',
-            title: 'Signed Out', 
+            title: 'Signed Out',
         }).then((value) => {
-            setTimeout(function(){
+            setTimeout(function() {
                 window.location.replace("../index.html");
             }, 1000)
         });
