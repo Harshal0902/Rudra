@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400&display=swap');
-
-footer{
+footer {
     position: relative;
-    top: 800px;
     width: 100%;
     font-family: "Source Serif Pro", serif;
     padding-top: 30px;
@@ -12,11 +10,14 @@ footer{
     line-height: 2rem;
     overflow-y: scroll;
 }
-.footer-list>li, .connect{
+
+.footer-list>li,
+.connect {
     width: 100%;
     margin-left: 20%;
     text-align: left;
 }
-.copyrights{
+
+.copyrights {
     background: rgb(0, 27, 31);
 }
