@@ -93,5 +93,20 @@ Similar steps for Kannada Section
 ![Contributors](https://contributors-img.web.app/image?repo=Harshal0902/Rudra)
 
 
-💜 **Thanks**
+## Code of Conduct
 
+<p align="center">
+<a href="https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md">
+<img width=35% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
+<h5 align="center"><b>Click to read</b></a>
+
+
+## License 
+
+<p align="center">
+<a href="https://github.com/Harshal0902/Rudra/blob/main/LICENSE">
+<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
+<h5 align="center"><b>MIT License</b></a> 
+
+
+💜 **Thanks**
