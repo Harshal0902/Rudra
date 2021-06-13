@@ -9,6 +9,7 @@
     <link rel='icon' href='English/Assets/favicon.ico' type='image/x-icon'/ >
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://use.fontawesome.com/c287a31143.js"></script>
+       <link rel="stylesheet" href="../css/chatbot.css" />
     <link rel="stylesheet" href="../css/footer.css">
     <title>Instructions | RUDRA</title>
 </head>
@@ -26,14 +27,39 @@
                         src="https://img.icons8.com/color/30/000000/brief.png" /> Instructions</a></li>
             <li><a href="./report.html"><img src="https://img.icons8.com/plasticine/30/000000/order-shipped.png" /> Report
                     Theft</a></li>
-            <li><a href="./chatbot.html"><img src="https://img.icons8.com/ultraviolet/30/000000/chatbot.png" />
-                    Chatbot</a></li>
+
             <li><a href="../index.html"><img src="https://img.icons8.com/dusk/30/000000/logout-rounded-left.png" />
                     Log Out</a></li>
             <div id="dark-mode-toggle" title="Dark mode toggle"><img
                     src="https://img.icons8.com/color/38/000000/moon-satellite.png" /></div>
         </ul>
     </nav>
+
+ <!-- ChatBot section-->
+    <div class="chatbot-button">
+      <i class="fa fa-comments" aria-hidden="true"></i>
+    </div>
+
+    <div class="chatarea-main">
+      <div class="chat-box-header">
+        ChatBot
+        <span class="chat-box-toggle"
+          ><i class="fa fa-times" aria-hidden="true"></i
+        ></span>
+      </div>
+      <div class="chat-main">
+        <div class="chatarea-outer"></div>
+      </div>
+      <div class="chat-input">
+        <button id="mic">
+          <i class="flaticon-microphone"></i>
+        </button>
+      </div>
+    </div>
+    
+    <script src="../js/chatbot.js"></script>
+<!-- ChatBot Section End-->
+
 
     <!-- button for the top -->
     <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
