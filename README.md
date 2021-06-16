@@ -76,7 +76,7 @@ Similar steps for Kannada Section
 
 ### This Project is a part of the following Open Source Program
 
-![Cross Winter of Code](https://crosswoc.ieeedtu.in/)
+[<img src ="https://github.com/Ayush7614/Rudra/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>](https://crosswoc.ieeedtu.in/)
 ![Lets Grow More Summer of Code](https://user-images.githubusercontent.com/60106112/121303829-28c07900-c919-11eb-8cf2-afd39b5c54ab.png)
 
 
