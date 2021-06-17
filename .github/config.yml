@@ -1,22 +1,11 @@
-# Configuration for welcome - https://github.com/behaviorbot/welcome
-
-# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
-# Comment to be posted to on first time issues
 
 newIssueWelcomeComment: >
-  Hello there!👋 Welcome to the project!🚀⚡
-  
-  
-  Thank you and congrats🎉 for opening your very first issue in this project. Our Project is A web application for Police and Public Assistance.
-  Please adhere to our [Code of Conduct](https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md).
-  Please make sure not to start working on the issue, unless you get assigned to it.😄
-  
-  
-# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
-# Comment to be posted to on PRs from first time contributors in your repository
+  Thanks for opening your first issue💖 here! Be sure to follow the issue template and [Code of Conduct](https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md)!
+
 
 newPRWelcomeComment: >
-  Hello there!👋 Welcome to the project!💖
+  Thanks for opening this pull request💖! Please check out our [contributing guidelines](https://github.com/Harshal0902/Rudra/blob/main/CONTRIBUTING.md).
+
   
   
   Thank you and congrats🎉 for opening your first pull request. Our Project is A web application for Police and Public Assistance.
@@ -27,4 +16,4 @@ newPRWelcomeComment: >
 # Comment to be posted to on pull requests merged by a first time user
 
 firstPRMergeComment: >
-  Congrats on merging your first pull request! 🎉 All the best for your amazing open source journey ahead 🚀.
+   Congrats on merging your first pull request💖! Thanks a bunch. Feel free to take another Issue.
