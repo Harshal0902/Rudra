@@ -5,15 +5,10 @@ newIssueWelcomeComment: >
 
 newPRWelcomeComment: >
   Thanks for opening this pull request💖! Please check out our [contributing guidelines](https://github.com/Harshal0902/Rudra/blob/main/CONTRIBUTING.md).
-
-  
-  
-  Thank you and congrats🎉 for opening your first pull request. Our Project is A web application for Police and Public Assistance.
-  Please adhere to our [Code of Conduct](https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md).🙌🙌 We will get back to you as soon as we can 😄.
   
   
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 # Comment to be posted to on pull requests merged by a first time user
 
 firstPRMergeComment: >
-   Congrats on merging your first pull request💖! Thanks a bunch. Feel free to take another Issue.
+   Congrats on merging your first pull request💖! Thanks a bunch. Feel free to take another [Issue](https://github.com/Harshal0902/Rudra/issues).
