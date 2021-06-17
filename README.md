@@ -76,7 +76,8 @@ Similar steps for Kannada Section
 
 ### This Project is a part of the following Open Source Program
 
-[<img src ="https://github.com/Ayush7614/Rudra/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>](https://crosswoc.ieeedtu.in/)
+![Cross Winter of Code](https://raw.githubusercontent.com/Ayush7614/Rudra/main/cwoc.png)
+![Lets Grow More Summer of Code](https://user-images.githubusercontent.com/60106112/121303829-28c07900-c919-11eb-8cf2-afd39b5c54ab.png)
 
 
 ## Project Maintainer 
@@ -93,5 +94,20 @@ Similar steps for Kannada Section
 ![Contributors](https://contributors-img.web.app/image?repo=Harshal0902/Rudra)
 
 
-💜 **Thanks**
+## Code of Conduct
 
+<p align="center">
+<a href="https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md">
+<img width=35% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
+<h5 align="center"><b>Click to read</b></a>
+
+
+## License 
+
+<p align="center">
+<a href="https://github.com/Harshal0902/Rudra/blob/main/LICENSE">
+<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
+<h5 align="center"><b>MIT License</b></a> 
+
+
+💜 **Thanks**

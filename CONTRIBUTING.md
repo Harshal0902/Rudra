@@ -44,7 +44,7 @@ git remote -v
 **6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
 ```
-git pull upstream master
+git pull upstream main
 ```
 
 **7.** Create a new branch.
@@ -62,25 +62,31 @@ git checkout -b <your_branch_name>
 git add . 
 ```
 
-**10.** Commit your changes .
+**10.** Check for the changes .
+
+```
+git status
+```
+
+**11.** Commit your changes .
 
 ```
 git commit -m "Relevant message"
 ```
 
-**11.** Push the committed changes in your feature branch to your remote repo.
+**12.** Push the committed changes in your feature branch to your remote repo.
 
 ```
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+**13.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
 
-**13.** Then add an appropriate title and description to your pull request that explains your changes and efforts done.
+**14.** Then add an appropriate title and description to your pull request that explains your changes and efforts done.
 
 
-**14.** Click on `Create Pull Request` on `main` branch.
+**15.** Click on `Create Pull Request` on `main` branch.
 
 <img src="https://user-images.githubusercontent.com/64153988/106642571-88df9100-65ae-11eb-86a0-de4b3284f14e.png" width=600>
 
