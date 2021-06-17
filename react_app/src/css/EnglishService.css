@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+body {
+  margin-top: 40px;
+  padding-top: 0px !important;
+  font-family: "Source Serif Pro", serif;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  background: none !important;
+}
+
+
+.EnglishService .title {
+  font-family: "Raleway";
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Typewriter Effect */
+
+.EnglishService .container1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Serif Pro", serif;
+  align-items: center;
+}
+
+.EnglishService .container1 p {
+  font-size: 20px;
+  padding: 0.5rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.EnglishService .container1 p span.cursor {
+  display: inline-block;
+  background-color: #000;
+  margin-left: 0.1rem;
+  width: 8px;
+  animation: blink 4s ease-in-out infinite  ;
+}
+
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  10%,100%{
+    opacity: 1;
+  }
+}
+
+.EnglishService .container1 p span.typed-text {
+  color: #000;
+  font-weight: bolder;
+}
+
+/* 
+.EnglishService .text span {
+  font-weight: bold;
+}
+
+
+.EnglishService .text {
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+} */
+/* 
+
+.EnglishService .animated-text span {
+  display: none;
+  line-height: 1;
+}
+
+.EnglishService .animated-text span.active {
+  display: inline-block;
+}
+
+.EnglishService .animated-text:after {
+  content: ".";
+  display: inline-block;
+  width: 10px;
+  text-indent: 0;
+  overflow: hidden;
+  background: var(--col-icon);
+} */
+
+.EnglishService p {
+  font-size: 20px;
+}
+
+
+.EnglishService h1 + p,
+.EnglishService p + p {
+  margin-top: 10px;
+}
+
+
+.EnglishService .container{
+  align-items: center;
+  font-family: "Source Serif Pro", serif;
+  padding-bottom: 95px;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+
+.EnglishService .card-wrap {
+  margin: 10px;
+  -webkit-transform: perspective(800px);
+  transform: perspective(800px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.EnglishService .card-wrap:hover .card-info {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.EnglishService .card-wrap:hover .card-info p {
+  opacity: 1;
+}
+
+.EnglishService .card-wrap:hover .card-info,
+
+.EnglishService .card-wrap:hover .card-info p {
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.EnglishService .card-wrap:hover .card-info:after {
+  -webkit-transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.EnglishService .card-wrap:hover .card-bg {
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 0.8;
+}
+
+.EnglishService .card-wrap:hover .card {
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px,
+    rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset white 0 0 0 6px;
+}
+
+
+.EnglishService .card {
+  position: relative;
+  -webkit-box-flex: 0;
+  margin-left: 40px;
+  flex: 0 0 240px;
+  width: 300px;
+  height: 500px;
+  background-color: var(--primary-bg);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
+    inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
+  -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+
+.EnglishService .card-bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  pointer-events: none;
+}
+
+
+.EnglishService .card-info {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(40%);
+  transform: translateY(40%);
+  -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.EnglishService .card-info p {
+  text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+  opacity: 0;
+  -webkit-transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.EnglishService .card-info * {
+  position: relative;
+  z-index: 1;
+}
+
+.EnglishService .card-info::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: overlay;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+
+.EnglishService .card-info h1 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+
+@media (max-width: 920px) {
+  
+.EnglishService .container {
+    margin-left: -35px;
+  }
+}
+
+
+.EnglishService ::-webkit-scrollbar {
+  width: 12px;
+}
+
+.EnglishService ::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+.EnglishService ::-webkit-scrollbar-thumb {
+  background: #f30f2d;
+  border-radius: 6px;
+}
+
+.EnglishService ::-webkit-scrollbar-thumb:hover {
+  background: #03f718;
+}
