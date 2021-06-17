@@ -63,13 +63,13 @@ Required to install and run the software:
 
 From the project folder, run these commands in console (terminal) to install dependencies and run the app:
 ```
-1. cd English\Police\pages\FirearmDetection
+1. cd English/Police/pages/FirearmDetection
 2. npm install
 3. npm run dev
 ```
 Similar steps for Kannada Section
 ```
-1. cd Kannada\Police\pages\FirearmDetection
+1. cd Kannada/Police/pages/FirearmDetection
 2. npm install
 3. npm run dev
 ```
