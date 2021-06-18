@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 html {
   --i: var(--wide, 1);
   --j: calc(1 - var(--i));
@@ -173,5 +174,18 @@ p:before {
 
 .clickable{
   cursor: pointer;
+}
+.box1:hover{
+  border:2px solid rgb(22, 248, 22);
+  box-shadow: 2px 2px 5px rgb(94, 255, 94);
+}
+.box2:hover{
+  border:2px solid rgb(255, 135, 54);
+  box-shadow: 3px 3px 5px rgb(253, 151, 104);
+}
+.box3:hover{
+  border:2px solid rgb(23, 255, 178);
+  box-shadow: 2px 2px 5px rgb(78, 248, 177);
+  cursor:pointer;
 }
 
