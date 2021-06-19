@@ -3,7 +3,7 @@ footer{
     /* position:fixed; */
     background: rgb(6, 82, 92);
     background-size: 100%;
-    clip-path: polygon(26% 0, 100% 4%, 100% 100%, 0 100%, 0 5%);
+    /* clip-path: polygon(26% 0, 100% 4%, 100% 100%, 0 100%, 0 5%); */
     align-items: left;
     line-height: 2rem;
 }

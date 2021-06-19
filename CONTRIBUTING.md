@@ -26,7 +26,7 @@ git clone --depth 1 https://github.com/<your_user_name>/Rudra.git
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd awesome-portfolio-websites
+cd Rudra
 ```
 
 **4.** Add a reference to the original repository.

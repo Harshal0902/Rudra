@@ -178,22 +178,6 @@ input[type="checkbox"] {
   }
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-}
-::-webkit-scrollbar-track {
-  visibility: hidden;
-  /* border-radius: 6px;
-  background-color: white; */
-}
-::-webkit-scrollbar-thumb {
-  background: #f30f2d;
-  border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #03f718;
-}
-
 #back-to-top-btn {
   display: none;
   position: fixed;
