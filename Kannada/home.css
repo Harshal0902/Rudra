@@ -228,16 +228,3 @@ p + p {
   }
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-}
-::-webkit-scrollbar-track {
-  visibility: hidden;
-}
-::-webkit-scrollbar-thumb {
-  background: #f30f2d;
-  border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #03f718;
-}

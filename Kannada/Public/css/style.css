@@ -24,23 +24,6 @@ a{
     height: 120px;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-}
-::-webkit-scrollbar-track {
-  visibility: hidden;
-  /* border-radius: 6px;
-  background-color: white; */
-}
-::-webkit-scrollbar-thumb {
-  background: #f30f2d;
-  border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #03f718;
-}
-
-
 .bg-gradient3 span,
 .bg-gradient3:before {
   background: #fa6c9f;
