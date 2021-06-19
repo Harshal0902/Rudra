@@ -188,4 +188,111 @@ p:before {
   box-shadow: 2px 2px 5px rgb(78, 248, 177);
   cursor:pointer;
 }
+/* Contact section start */
+.contact{
+  background-color: var(--black-100);
+}
+.contact-info h3{
+  font-size: 22px;
+  color: var(--black-900);
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+.contact-info-item{
+  position: relative;
+  padding-left: 55px;
+  margin: 30px;
+}
+.contact-info-item i{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  font-size: 16px;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  text-align: center;
+  line-height: 38px;
+}
+.contact-info-item h3{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  color: var(--black-900);
+}
+.contact-info-item p{
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 26px;
+  color: var(--black-400);
+}
+.contact-form .form-group{
+  margin-bottom: 25px;
+}
+.contact-form .form-control{
+  height: 52px;
+  border: 1px solid transparent;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 30px;
+  padding: 0 24px;
+  color: var(--black-900);
+  background-color: var(--black-000);
+  transition: all 0.5s ease;
+}
+.contact-form textarea.form-control{
+  height: 140px;
+  padding-top: 12px;
+  resize: none;
+}
+.contact-form .form-control:focus{
+  border-color: var(--main-color);
+}
+.col-lg-6{
+margin: 48px 5px 47px -10px;
+border: 1px solid black;
+background-color: #a2aeec5c;
+border-radius: 20px;
+margin-bottom: 35px;
+}
+.php-email-form{
+margin: 46px 5px 5px 5px;
+}
+.text{
+margin: 56px 5px 5px 5px;
+font-size: 39px;
+font-weight: 800;
+color: #dcff1e;
+
+}
+.img{
+margin: 30px 12px 2px 6px;
+  width: 500px;
+}
+.text1{
+border: 2px solid white;
+  margin: 11px 5px 21px 5px;
+  border-radius: 34px;
+  background-color: #2233fe;
+  color: white;
+  font-weight: 500;
+  box-shadow: 2px 2px 2px rgba(141, 141, 141, 0.466);
+  text-shadow: 1px 1px 2px rgba(170, 170, 170, 0.623);
+}
+.text3{
+margin: 13px 9px 12px 14px;
+font-size: 20px;
+  
+}
+.text1:hover{
+background-color: white;
+border: 3px solid #2233fe;
+color: #2233fe;
+box-shadow: 2px 2px 2px #2233fe;
+cursor: pointer;
+font-weight: 600;
+}
+/* Contact section end */          
 
