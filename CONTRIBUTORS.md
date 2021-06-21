@@ -1,3 +1,367 @@
+# [LGM Summer of Codes](https://lgmsoc.co/)
+
+## Our Wonderful Contributors !!
+<table>
+<tr><th>Name</th><th>Github</th><th>Level 1 (5)</th><th>Level 2 (10)</th><th>Level 3 (25)</th><th>Level 5 (45)</th><th>Total</th><tr>
+  
+<tr>
+   <td>Arushi Jain</td>
+   <td><a href='https://github.com/arushijain-20'>arushijain-20</a></td>
+   <td>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/54'>54</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>10</td>
+</tr>
+   
+<tr>
+   <td>Rajdeep-99</td>
+   <td><a href='https://github.com/Rajdeep-99'>Rajdeep-99</a></td>
+   
+   <td>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/55'>55</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>10</td>
+</tr>
+   
+<tr>
+   <td>Ajay Dharmarajula</td>
+   <td><a href='https://github.com/ajaydr16'>ajaydr16</a></td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/58'>58</a></li>
+      </ul>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/63'>63</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>10</td>
+</tr>
+   
+<tr>
+   <td>Aum Singhal</td>
+   <td><a href='https://github.com/aum-singhal'>aum-singhal</a></td>
+   
+   <td>  
+   </td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/61'>61</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>10</td>
+</tr>
+   
+<tr>
+   <td>ARYAN PATEL</td>
+   <td><a href='https://github.com/patelaryan7751'>patelaryan7751</a></td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/62'>62</a></li>
+      </ul>
+   </td>
+   
+   <td>
+      
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>
+   
+<tr>
+   <td>MOHIT LAMBA</td>
+   <td><a href='https://github.com/mohit200008'>mohit200008</a></td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/64'>64</a></li>
+      </ul>
+   </td>
+   
+   <td>
+      
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>
+   
+<tr>
+   <td>Sukriti Sood</td>
+   <td><a href='https://github.com/Sukriti-sood'>Sukriti-sood</a></td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/70'>70</a></li>
+      </ul>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/86'>86</a></li>
+      </ul>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/87'>87</a></li>
+      </ul>
+   </td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/68'>68</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>45</td>
+</tr>  
+   
+<tr>
+   <td>Shaishav Rastogi</td>
+   <td><a href='https://github.com/Shaishav0507'>Shaishav0507</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/69'>69</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>      
+   
+<tr>
+   <td>Kritika Agrawal</td>
+   <td><a href='https://github.com/Kritika-2000'>Kritika-2000</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/73'>73</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>
+   
+<tr>
+   <td>Supritha</td>
+   <td><a href='https://github.com/supzi-del'>supzi-del</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/76'>76</a></li>
+      </ul>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/91'>91</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>10</td>
+</tr>
+   
+<tr>
+   <td>Rishabhraghwendra18
+</td>
+   <td><a href='https://github.com/Rishabhraghwendra18'>Rishabhraghwendra18</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/77'>77</a></li>
+      </ul>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/79'>79</a></li>
+      </ul>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/81'>81</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>15</td>
+</tr>   
+   
+<tr>
+   <td>Ashutosh Sahu</td>
+   <td><a href='https://github.com/Ashuto7h'>Ashuto7h</a></td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/89'>89</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>25</td>
+</tr>   
+   
+<tr>
+   <td>ishitakapoor26</td>
+   <td><a href='https://github.com/ishitakapoor26'>ishitakapoor26</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/92'>92</a></li>
+      </ul>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/96'>96</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>15</td>
+</tr>  
+   
+<tr>
+   <td>Easwaran S</td>
+   <td><a href='https://github.com/varunwho'>varunwho</a></td>
+   
+   <td>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/94'>94</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>10</td>
+</tr> 
+   
+<tr>
+   <td>varshitha1707</td>
+   <td><a href='https://github.com/varshitha1707'>varshitha1707</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/101'>101</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr> 
+   
+</table>
+
 # [Cross Winter Of Code](https://crosswoc.ieeedtu.in/)
 
 ## Our Wonderful Contributors !!
