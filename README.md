@@ -1,4 +1,22 @@
 # Rudra
+<div align="center">
+
+<a href="https://github.com/Harshal0902/Rudra"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/Harshal0902/Rudra"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/Harshal0902/Rudra/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?label=license&message=MIT&color=yellow"></a>
+<a href="https://github.com/Harshal0902/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+<a href="https://github.com/Harshal0902/Rudra"><img src="https://img.shields.io/badge/PR's%3F-Welcomed-blue.svg?v=103"></a>
+
+<a href="https://github.com/Harshal0902/Rudra/watchers"><img src="https://img.shields.io/github/watchers/Harshal0902/Rudra?style=flat"></a> 
+<a href="https://github.com/Harshal0902/Rudra/graphs/contributors"><img src="https://img.shields.io/github/contributors/Harshal0902/Rudra?color=brightgreen"></a>
+<a href="https://github.com/Harshal0902/Rudra/stargazers"><img src="https://img.shields.io/github/stars/Harshal0902/Rudra?color=0059b3"></a>
+<a href="https://github.com/Harshal0902/Rudra/network/members"><img src="https://img.shields.io/github/forks/Harshal0902/Rudra?color=yellow"></a>
+<a href="https://github.com/Harshal0902/Rudra/issues"><img src="https://img.shields.io/github/issues/Harshal0902/Rudra?color=0059b3"></a>
+<a href="https://github.com/Harshal0902/Rudra/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/Harshal0902/Rudra?color=yellow"></a>
+<a href="https://github.com/Harshal0902/Rudra/pulls"><img src="https://img.shields.io/github/issues-pr/Harshal0902/Rudra?color=brightgreen"></a>
+<a href="https://github.com/Harshal0902/Rudra/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Harshal0902/Rudra?color=0059b3"></a> 
+</div>
+
 RUDRA is a responsive web application for Police and Public Assistance.
 
 ## Demo Link
