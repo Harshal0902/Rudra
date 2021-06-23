@@ -11,6 +11,7 @@
     <link rel='icon' href='Kannada/Assets/favicon.ico' type='image/x-icon'/ >
     <!-- Sweet Alert JavaScript -->
     <script src="../js/sweetalert2.js"></script>
+    <script src="../js/hide.js"></script>
     <!-- Nunito Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/c287a31143.js"></script>
@@ -49,7 +50,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="userPassword">ಗುಪ್ತಪದ<span class="text-danger ml-1">*</span></label>
-                                <input type="password" class="form-control" id="userPassword" onblur="checkUserPassword()" placeholder="**********">
+                                <input type="password" class="form-control" name="password" id="userPassword" onblur="checkUserPassword()" placeholder="**********" />
+				                        <i class="bi bi-eye-slash" id="togglePassword"></i>
                                 <small id="userPasswordError" class="form-text text-danger">ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ದೊಡ್ಡಕ್ಷರ, ಸಣ್ಣ ಮತ್ತು 10 ಅಕ್ಷರಗಳಿಗಿಂತ ಹೆಚ್ಚು ಇರಬೇಕು.</small>
                             </div>
                             <button type="button" class="btn btn-outline-primary text-uppercase mb-3" onclick="signUp()">ಸೈನ್ ಅಪ್ ಮಾಡಿ
