@@ -11,6 +11,8 @@
     <link rel='icon' href='English/Assets/favicon.ico' type='image/x-icon'/ >
     <!-- Sweet Alert JavaScript -->
     <script src="./js/sweetalert2.js"></script>
+    <script src="./js/hide.js"></script>
+
     <!-- Nunito Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/c287a31143.js"></script>
@@ -38,7 +40,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="userSIPassword">Password<span class="text-danger ml-1">*</span></label>
-                                <input type="password" class="form-control" id="userSIPassword" onblur="checkUserSIPassword()" placeholder="password">
+                                <input type="password" class="form-control" name="password" id="userSIPassword" onblur="checkUserSIPassword()" placeholder="Enter the password" />
+				                        <i class="bi bi-eye-slash" id="togglePassword"></i>
                                 <small id="userSIPasswordError" class="form-text text-danger">Please check your password.</small>
                             </div>
                             <div class="form-group">

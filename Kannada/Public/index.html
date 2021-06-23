@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Sweet Alert JavaScript -->
     <script src="./js/sweetalert2.js"></script>
+    <script src="./js/hide.js"></script>
     <!-- Nunito Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/c287a31143.js"></script>
@@ -40,7 +41,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="userSIPassword">ಗುಪ್ತಪದ<span class="text-danger ml-1">*</span></label>
-                                <input type="password" class="form-control" id="userSIPassword" onblur="checkUserSIPassword()" placeholder="ಗುಪ್ತಪದ">
+                                <input type="password" class="form-control" name="password" id="userSIPassword" onblur="checkUserSIPassword()" placeholder="ಗುಪ್ತಪದ" />
+				                        <i class="bi bi-eye-slash" id="togglePassword"></i>
                                 <small id="userSIPasswordError" class="form-text text-danger">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಪರಿಶೀಲಿಸಿ.
                                 </small>
                             </div>
