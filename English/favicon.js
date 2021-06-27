@@ -5,11 +5,11 @@ window.onload=function(){
     setInterval(function(){
         if(favIndex== 0)
         {
-            favicon.href="./Assets/favicon.ico";
+            favicon.href="./Assets/favicon1.ico";
         }
         else
         {
-            favicon.href="./Assets/1.png";
+            favicon.href="./Assets/favicon.ico";
         }
         favIndex++;
         favIndex %=2;
