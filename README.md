@@ -28,6 +28,10 @@ Unique ID for Police section: 3456
 
 Use seperate account for both section.
 
+## Techstack : 💻
+
+<img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img alt="SCSS" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/> 
+
 <!-- ## YouTube Video Link
 https://youtu.be/w0ASgzbu4-E
 (Demo) https://youtu.be/4L7YrW01C4c -->
@@ -63,6 +67,14 @@ https://youtu.be/w0ASgzbu4-E
 - For frontend we have used React Js (only for firearm Detection) and jQuery for frontend.
 - For developing backend we have used JavaScript.
 - For styling we have used CSS and Bootstrap.
+
+## Code of Conduct
+
+<p align="center">
+<a href="https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md">
+<img width=35% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
+<h5 align="center"><b>Click to read</b></a>
+
 
 ## Contributing
 Am I missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. To start contributing, follow the  guidelines [here](./CONTRIBUTING.md)
@@ -110,14 +122,6 @@ Similar steps for Kannada Section
 ## Project Contributors
 
 ![Contributors](https://contributors-img.web.app/image?repo=Harshal0902/Rudra)
-
-
-## Code of Conduct
-
-<p align="center">
-<a href="https://github.com/Harshal0902/Rudra/blob/main/CODE_OF_CONDUCT.md">
-<img width=35% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
-<h5 align="center"><b>Click to read</b></a>
 
 
 ## License 
