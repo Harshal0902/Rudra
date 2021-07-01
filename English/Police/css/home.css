@@ -19,7 +19,7 @@
   --image-opacity: 1;
 }
 
-.dark-mode {
+html[dark-mode="dark"] {
   --primary-bg: #282c35;
   --primary-fg: #fff;
   --secondary-bg: #1e2129;
@@ -116,7 +116,67 @@ nav ul li img {
 input[type="checkbox"] {
   display: none;
 }
+/*slider switch css */
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 
+}
+.theme-switch {
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  width: 58px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #fff;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+  border: 3px solid #c7c5b3;
+}
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "🌙";
+  font-size: 18px;
+  height: 28px;
+  left: -3px;
+  position: absolute;
+  transition: .4s;
+  width: 28px;
+  padding: 1px;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+  border:3px solid black;
+}
+input:not(:checked)+ .slider:before{
+    content: "☀️";
+    background-color: #e8e9eaf0;
+}
+input:checked + .slider:before {
+  transform: translateX(34px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+    top: -5.5px;
+}
 @media (max-width: 920px) {
   nav {
     position: fixed;
@@ -176,8 +236,15 @@ input[type="checkbox"] {
   h2{
     font-size: 2em;
   }
+  .dark-mode-toggle{
+   margin-left: 46%; 
+  }
 }
-
+@media (max-width: 600px) {
+ .dark-mode-toggle{
+  margin-left: 43%;   
+  }  
+}
 #back-to-top-btn {
   display: none;
   position: fixed;

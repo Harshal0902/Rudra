@@ -1,33 +1,27 @@
 // Dark Mode
-const darkModeToggleBtn = document.getElementById('dark-mode-toggle');
-let theme = localStorage.getItem('theme');
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    const currentTheme = localStorage.getItem('theme');
 
-if (theme === 'dark') enableDarkMode();
+    if (currentTheme) {
+        document.documentElement.setAttribute('dark-mode', currentTheme);
 
-darkModeToggleBtn.addEventListener('click', () => {
-    theme = localStorage.getItem('theme');
-    if (theme === 'dark') {
-        disableDarkMode();
-    } else {
-        enableDarkMode();
+        if (currentTheme === 'dark') {
+            toggleSwitch.checked = true;
+        }
     }
-});
 
-function enableDarkMode() {
-    darkModeToggleBtn.innerHTML = '<img src="https://img.icons8.com/cotton/38/000000/sun--v2.png"/>';
-    localStorage.setItem('theme', 'dark');
-    document.body.classList.add('dark-mode');
-}
+    function switchTheme(e) {
+        if (e.target.checked) {
+            document.documentElement.setAttribute('dark-mode', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }
+        else {
+            document.documentElement.setAttribute('dark-mode', 'light');
+            localStorage.setItem('theme', 'light');
+        }
+    }
 
-function disableDarkMode() {
-    darkModeToggleBtn.innerHTML = '<img src="https://img.icons8.com/color/38/000000/moon-satellite.png"/>';
-    localStorage.setItem('theme', 'light');
-    document.body.classList.remove('dark-mode');
-}
-
-window
-    .matchMedia('(prefers-color-scheme: dark)')
-    .addListener((e) => (e.matches ? enableDarkMode() : disableDarkMode()));
+    toggleSwitch.addEventListener('change', switchTheme, false); 
 
 // Scroll to Top
 const backToTopButton = document.querySelector("#back-to-top-btn");
