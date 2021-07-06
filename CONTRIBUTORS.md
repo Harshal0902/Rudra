@@ -386,7 +386,7 @@
 </tr> 
   
 <tr>
-   <td>Umesh Singh</td>
+   <td>mdinesh124</td>
    <td><a href='https://github.com/mdinesh124'>mdinesh124</a></td>
    
    <td>
@@ -404,7 +404,7 @@
    <td>
    </td>
    
-   <td>5</td>
+   <td>10</td>
 </tr> 
   
 <tr>
@@ -451,7 +451,7 @@
    <td>
    </td>
    
-   <td>5</td>
+   <td>35</td>
 </tr>
   
 <tr>
