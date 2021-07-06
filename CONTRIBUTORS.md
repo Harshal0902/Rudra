@@ -299,6 +299,9 @@
        <ul>
          <li><a href='https://github.com/Harshal0902/Rudra/pull/92'>92</a></li>
       </ul>
+     <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/103'>103</a></li>
+      </ul>
    </td>
    
    <td>
@@ -359,6 +362,120 @@
    
    <td>5</td>
 </tr> 
+  
+<tr>
+   <td>Umesh Singh</td>
+   <td><a href='https://github.com/Umesh-01'>Umesh-01</a></td>
+   
+   <td>
+       <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/102'>102</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr> 
+  
+<tr>
+   <td>Umesh Singh</td>
+   <td><a href='https://github.com/mdinesh124'>mdinesh124</a></td>
+   
+   <td>
+   </td>
+   
+   <td>
+     <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/106'>106</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr> 
+  
+<tr>
+   <td>RituCs</td>
+   <td><a href='https://github.com/RituCs'>RituCs</a></td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/108'>108</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>
+  
+<tr>
+   <td>Samiksha sandip sankar</td>
+   <td><a href='https://github.com/SamikshaSankar'>SamikshaSankar</a></td>
+   
+   <td>
+   </td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/110'>110</a></li>
+      </ul>
+   </td>
+   
+   <td>
+     <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/116'>116</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>
+  
+<tr>
+   <td>Tatipamula Sri Satya
+</td>
+   <td><a href='https://github.com/srisatya1197'>srisatya1197</a></td>
+   
+   <td>
+      <ul>
+         <li><a href='https://github.com/Harshal0902/Rudra/pull/113'>113</a></li>
+      </ul>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>
+   </td>
+   
+   <td>5</td>
+</tr>
    
 </table>
 
