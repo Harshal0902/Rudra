@@ -82,7 +82,6 @@ Am I missing any of your favorite features, which you think you can add to it❓
 For any doubts join the community by [here](https://discord.gg/Q4fb3yAW6P)
 
 ## Prerequisites
-**Only for Firearm Detection**
 
 Required to install and run the software:
 
@@ -92,16 +91,25 @@ Required to install and run the software:
 ## Installing and Running
 
 From the project folder, run these commands in console (terminal) to install dependencies and run the app:
+
+**For working on React app version**
+```
+cd react_app
+npm install
+npm start
+```
+
+**Only for Firearm Detection(Optional)**
 ```
 1. cd English/Police/pages/FirearmDetection
 2. npm install
-3. npm run dev
+3. npm start
 ```
 Similar steps for Kannada Section
 ```
 1. cd Kannada/Police/pages/FirearmDetection
 2. npm install
-3. npm run dev
+3. npm start
 ```
 
 ### This Project is a part of the following Open Source Program
