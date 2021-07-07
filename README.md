@@ -127,6 +127,19 @@ Similar steps for Kannada Section
   </tr>
 </tbody></table>
 
+
+## Project Mentors 
+
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/Harshal0902"><img alt="" src="https://avatars.githubusercontent.com/u/64153988?s=400&u=fe27fb802b9d4954152a6ed65a09fede8b49fd4c&v=4" width="130px;"><br><sub><b>
+ Harshal Raikar </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+
+   <td align="center"><a href="https://github.com/satyampgt4"><img alt="" src="https://avatars.githubusercontent.com/u/59261812?v=4" width="130px;"><br><sub><b>
+ Satyam Dengre </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+  </tr>
+</tbody></table>
+
 ## Project Contributors
 
 ![Contributors](https://contributors-img.web.app/image?repo=Harshal0902/Rudra)
