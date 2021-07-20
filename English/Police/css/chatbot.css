@@ -76,7 +76,7 @@ html[dark-mode="dark"]  {
 
 body {
     background: var(--primary-bg);
-    font-family: "Source Serif Pro", serif;
+    font-family: "Georgia", serif;
     color: var(--primary-fg);
     text-decoration: none;
 }
