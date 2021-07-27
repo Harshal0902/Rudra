@@ -34,7 +34,7 @@ The link should direct you to a GitHub account with repository’s files.<br>
 
 To create a DigitalOcean account, you need to visit DigitalOcean's sign up page and choose among the following options:<br>
 
-<img src="./guides/DigitalOceanPNGs/sign-up-screen.PNG" alt="Create a DigitalOcean account"/><br>
+<img src="./DigitalOceanPNGs/sign-up-screen.PNG" alt="Create a DigitalOcean account"/><br>
 
 ***Option 1:*** Manually enter your email address and password <br>
 ***Option 2:*** Google sign-in <br>
@@ -47,7 +47,7 @@ Check spam in case you don't see the verification email in your inbox). <br>
 Enter a payment method (Credit Card or PayPal) for identity verification (the payment method entered will not be charged). <br>
 
 <br>
-<img src="./guides/DigitalOceanPNGs/verify-digital-ocean.PNG" alt="Payment Verification"/>
+<img src="./DigitalOceanPNGs/verify-digital-ocean.PNG" alt="Payment Verification"/>
 <br>
 
 A pre-authorization charge to verify the credit card or PayPal account, which will be reversed within one week.<br>
@@ -64,14 +64,14 @@ In some cases, you might be charged if your usage exceeds a threshold. You can a
 In this step we’ll deploy our static website with App Platform. <br>
 
 * Visit the DigitalOcean App Platform portal and click on the blue “Launch Your App” button. Check the image below.<br>
-<img src="./guides/DigitalOceanPNGs/app-platform-home.png" alt="Launch App"/> <br>
+<img src="./DigitalOceanPNGs/app-platform-home.png" alt="Launch App"/> <br>
 
 * You will be prompted to select your GitHub repository.
 Here, link to connect your DigitalOcean App Platform account to your GitHub account by clicking *Link Your GitHub Account* button:
 
 * Sign into your GitHub account and select the account that you want to connect to App Platform. 
 Once selected, you will be directed to a page where you can select which repositories to permit App Platform to access. <br>
-<img src="./guides/DigitalOceanPNGs/link-new-app.png" alt="Link to GitHub"/><br>
+<img src="./DigitalOceanPNGs/link-new-app.png" alt="Link to GitHub"/><br>
 
 The page will prompt you to sign into GitHub and select the repositories to allow the DigitalOcean App Platform access. Select the *Only Repository* button and the select the created repository that was initially pushed to GitHub.<br>
 
@@ -85,14 +85,14 @@ Choose the selections and click *Next*: <br>
 
 
 
-<img src="./guides/DigitalOceanPNGs/name-your-app.png" alt="Name of App"/><br>
+<img src="./DigitalOceanPNGs/name-your-app.png" alt="Name of App"/><br>
 
 * Static App Configuration.<br>
 The page automatically detect your component type as a *Static Site* <br>
-<img src="./guides/DigitalOceanPNGs/config-your-app.png" alt="App Config"/><br>
+<img src="./DigitalOceanPNGs/config-your-app.png" alt="App Config"/><br>
 
 At the above step, there is no any necessary changes required. Click *Next* at the bottom of the page and the page will re-direct to a new window to allow the selection of a *Starter* use plan in case you prefer the deployment of the static website as among the first three sites allowed for free on DigitalOcean.<br>
-<img src="./guides/DigitalOceanPNGs/finalize-and-launch.png" alt="Finalize and Launch"/><br>
+<img src="./DigitalOceanPNGs/finalize-and-launch.png" alt="Finalize and Launch"/><br>
 
 After clicking the *Launch Your App* button, the DigitalOcean page will return a *Deployed Successfully* notification and the process will be complete. <br>
 
