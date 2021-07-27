@@ -1,9 +1,7 @@
 # Deploying A Static Web App to DigitalOcean <br>
 
 ## What is Digital Ocean?
-[DigitalOcean](https://www.digitalocean.com/) is a cloud infrastructure provider. <br>
-It offers cloud services to developers that help them in the deploying and scaling applications that run on multiple servers at the same time without reducing their performance.<br>
-
+[DigitalOcean](https://www.digitalocean.com/) is a cloud infrastructure provider. It offers cloud services to developers that help them in the deploying and scaling applications that run on multiple servers at the same time without reducing their performance.<br>
 DigitalOcean offers related services, such as computing, storage, databases, and networking, through a developer-friendly interface optimized for high productivity.<br>
 
 ## What is a Static App? <br>
@@ -17,15 +15,15 @@ The prerequisites include:
 2. Email address (or [GitHub](https://github.com/) account)
 3. Payment method (Credit Card or PayPal) <br>
 
-# Steps to Deploying A Static Application to DigitalOcean <br>
+## Steps to Deploying A Static Application to DigitalOcean <br>
 
-Creating a local repository on your machine for static website project is a key step before deployment to DigitalOcean.<br>
-The static website app's files are copied to the GitHub repository created.<br>
-On the desktop, open the static website's 'working folder' - the one storing all the folders and files.<br>
-Copy the files on the 'working folder' and paste them to the repository folder.<br>
-After pasting the files on the local repository folder, save the changes to the repository. On GitHub, saved changes are called commits.<br>
-Click 'Commit to master' to save your changes to the “main” branch of your project.
-After a successful commit, push the committed files to GitHub and 'Publish Repository'<br>
+- Create a local repository on your machine for static website project is a key step before deployment to DigitalOcean.<br>
+- The static website app's files are copied to the GitHub repository created.<br>
+- On the desktop, open the static website's 'working folder' - the one storing all the folders and files.<br>
+- Copy the files on the 'working folder' and paste them to the repository folder.<br>
+- After pasting the files on the local repository folder, save the changes to the repository. On GitHub, saved changes are called commits.<br>
+- Click 'Commit to master' to save your changes to the “main” branch of your project.
+- After a successful commit, push the committed files to GitHub and 'Publish Repository'<br>
 
 Use the link below to check the published files in your GitHub. <br>
 
@@ -84,6 +82,8 @@ The page will redirect to App Platform that will enable selecting the repository
 You will then be prompted to choose the name, branch, and options for Autodeploy. <br>
 If you check the *Autodeploy* box, all the future changes made to the repository files will automatically push to your live site.<br>
 Choose the selections and click *Next*: <br>
+
+
 
 <img src="./guides/DigitalOceanPNGs/name-your-app.png" alt="Name of App"/><br>
 
