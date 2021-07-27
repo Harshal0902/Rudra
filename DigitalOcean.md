@@ -1,4 +1,4 @@
-**Deploying App to DigitalOcean** <br>
+# Deploying A Static Web App to DigitalOcean <br>
 
 ## What is Digital Ocean?
 [DigitalOcean](https://www.digitalocean.com/) is a cloud infrastructure provider. <br>
@@ -36,7 +36,7 @@ The link should direct you to a GitHub account with repository’s files.<br>
 
 To create a DigitalOcean account, you need to visit DigitalOcean's sign up page and choose among the following options:<br>
 
-<img src="./guides/DigitalOceanPNGs/signupscreen.png" alt="Create a DigitalOcean account"/><br>
+<img src="./guides/DigitalOceanPNGs/sign-up-screen.PNG" alt="Create a DigitalOcean account"/><br>
 
 ***Option 1:*** Manually enter your email address and password <br>
 ***Option 2:*** Google sign-in <br>
@@ -49,7 +49,7 @@ Check spam in case you don't see the verification email in your inbox). <br>
 Enter a payment method (Credit Card or PayPal) for identity verification (the payment method entered will not be charged). <br>
 
 <br>
-<img src="./guides/DigitalOceanPNGs/verifydigitalocean.png" alt="Payment Verification"/>
+<img src="./guides/DigitalOceanPNGs/verify-digital-ocean.PNG" alt="Payment Verification"/>
 <br>
 
 A pre-authorization charge to verify the credit card or PayPal account, which will be reversed within one week.<br>
