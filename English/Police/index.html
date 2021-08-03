@@ -18,6 +18,7 @@
     <script src="https://use.fontawesome.com/c287a31143.js"></script>
     <link rel="stylesheet" href="../footer.css">
     <title>Sign In | Police</title>
+   
 </head>
 <body class="bg-light">
     <div class="container-fluid">
@@ -51,7 +52,9 @@
                             </div>
                             <button type="button" class="btn btn-outline-primary text-uppercase mb-3" onclick="signIn()">Sign In</button>
                             <p>New here? <a href="./pages/sign-up.html"><strong class="text-primary text-uppercase showSignUpForm">Sign Up</strong></a></p>
-                        </div>
+                          </div>
+                          <button type="button" class="goggle btn btn-outline-primary text-uppercase mb-3" onclick="signin()"><span><img style="width: 30px;" src="./Assets/google_logo.png" alt=""></span> Sign In with google</button>
+                     
                     </div>
                 </div>
             </div>
@@ -61,6 +64,7 @@
     <div class="wrapper">
         <a href="../Public/index.html" class="fancy-button pop-onhover bg-gradient3"><span>Sign In with Public Account</span></a>
     </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -84,6 +88,32 @@
 
 
 <script>
+  //google SignIn popup
+  function signin(){
+        var provider = new firebase.auth.GoogleAuthProvider();
+          firebase.auth()
+          .signInWithPopup(provider)
+          .then((result) => {
+              /** @type {firebase.auth.OAuthCredential} */
+              var credential = result.credential;
+
+              // This gives you a Google Access Token. You can use it to access the Google API.
+              var token = credential.accessToken;
+              // The signed-in user info.
+              var user = result.user;
+              // ...
+          }).catch((error) => {
+              // Handle Errors here.
+              var errorCode = error.code;
+              var errorMessage = error.message;
+              // The email of the user's account used.
+              var email = error.email;
+              // The firebase.auth.AuthCredential type that was used.
+              var credential = error.credential;
+              // ...
+          });
+  }
+  
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyCMBcRx1Cs96Fck40-z1HLtfMwp0uVXXAE",
