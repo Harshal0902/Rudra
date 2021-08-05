@@ -85,7 +85,7 @@
   //google SignIn popup
 
   document.addEventListener("DOMContentLoaded", function(event) { 
-    console.log("firstline");
+
   var firebaseConfig = {
     apiKey: "AIzaSyBzwOD0bKS1pGGMVCdsiYzKvEVENJ_Z-W8",
             authDomain: "rudra-public.firebaseapp.com",
@@ -103,12 +103,6 @@
   Signin.addEventListener("click",signin)
 });
 
-
-
-
-
-
-  
   function signin(){
         var provider = new firebase.auth.GoogleAuthProvider();
         // console.log("provider" + JSON.stringify(provider));
