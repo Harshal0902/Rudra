@@ -128,7 +128,7 @@ Similar steps for Kannada Section
 </tbody></table>
 
 
-## Project Mentors 
+## Project Mentors (LGM SoC)
 
 <table>
   <tbody><tr>
