@@ -1,4 +1,5 @@
-# Rudra_Project
+# Rudra
+
 <div align="center">
 
 <a href="https://github.com/Harshal0902/Rudra"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
