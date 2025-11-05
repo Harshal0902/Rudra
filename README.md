@@ -18,7 +18,7 @@
 <a href="https://github.com/Harshal0902/Rudra/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Harshal0902/Rudra?color=0059b3"></a> 
 </div>
 
-RUDRA is a responsive web application for Police and Public Assistance.
+satyam and RUDRA is a responsive web application for Police and Public Assistance.
 
 ## Demo Link
 https://rudraweb.netlify.app/
